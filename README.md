@@ -8,6 +8,7 @@ Look Demo for more info and self configurable vc example.
 ## Simple example
 
 ```swift
+    import ActionClosurable
 
     var somePlainButton: UIBarButtonItem {
         UIBarButtonItem(title: "somePlain", style: .plain) { _ in
