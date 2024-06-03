@@ -15,10 +15,10 @@
 		7437D68D2C0E401F0073A480 /* ActionClosurableDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7437D68C2C0E401F0073A480 /* ActionClosurableDemoTests.swift */; };
 		7437D6972C0E401F0073A480 /* ActionClosurableDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7437D6962C0E401F0073A480 /* ActionClosurableDemoUITests.swift */; };
 		7437D6992C0E401F0073A480 /* ActionClosurableDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7437D6982C0E401F0073A480 /* ActionClosurableDemoUITestsLaunchTests.swift */; };
-		74C5FC232C0E419D0043E0AA /* ActionClosurable in Frameworks */ = {isa = PBXBuildFile; productRef = 74C5FC222C0E419D0043E0AA /* ActionClosurable */; };
 		74C5FC262C0E45200043E0AA /* ACNavBarConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5FC252C0E45200043E0AA /* ACNavBarConfigurable.swift */; };
 		74C5FC282C0E45400043E0AA /* ACLabelConfigrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5FC272C0E45400043E0AA /* ACLabelConfigrable.swift */; };
 		74C5FC2C2C0E52650043E0AA /* ACControllerConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5FC2B2C0E52650043E0AA /* ACControllerConfigurable.swift */; };
+		74C5FC2F2C0E57580043E0AA /* ActionClosurable in Resources */ = {isa = PBXBuildFile; fileRef = 74C5FC2E2C0E57580043E0AA /* ActionClosurable */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +51,10 @@
 		7437D6922C0E401F0073A480 /* ActionClosurableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionClosurableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7437D6962C0E401F0073A480 /* ActionClosurableDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionClosurableDemoUITests.swift; sourceTree = "<group>"; };
 		7437D6982C0E401F0073A480 /* ActionClosurableDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionClosurableDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		74C5FC202C0E418C0043E0AA /* ActionClosurable */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ActionClosurable; path = ../..; sourceTree = "<group>"; };
 		74C5FC252C0E45200043E0AA /* ACNavBarConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACNavBarConfigurable.swift; sourceTree = "<group>"; };
 		74C5FC272C0E45400043E0AA /* ACLabelConfigrable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACLabelConfigrable.swift; sourceTree = "<group>"; };
 		74C5FC2B2C0E52650043E0AA /* ACControllerConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACControllerConfigurable.swift; sourceTree = "<group>"; };
+		74C5FC2E2C0E57580043E0AA /* ActionClosurable */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ActionClosurable; path = ../..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C5FC232C0E419D0043E0AA /* ActionClosurable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +145,7 @@
 		74C5FC242C0E41A90043E0AA /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				74C5FC202C0E418C0043E0AA /* ActionClosurable */,
+				74C5FC2E2C0E57580043E0AA /* ActionClosurable */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
@@ -178,7 +177,6 @@
 			);
 			name = ActionClosurableDemo;
 			packageProductDependencies = (
-				74C5FC222C0E419D0043E0AA /* ActionClosurable */,
 			);
 			productName = ActionClosurableDemo;
 			productReference = 7437D6722C0E401D0073A480 /* ActionClosurableDemo.app */;
@@ -268,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C5FC2F2C0E57580043E0AA /* ActionClosurable in Resources */,
 				7437D67F2C0E401F0073A480 /* Assets.xcassets in Resources */,
 				7437D6822C0E401F0073A480 /* Base in Resources */,
 			);
@@ -630,13 +629,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		74C5FC222C0E419D0043E0AA /* ActionClosurable */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ActionClosurable;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7437D66A2C0E401D0073A480 /* Project object */;
 }

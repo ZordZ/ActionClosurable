@@ -1,21 +1,25 @@
-MIT License
+#ActionClosurable
 
-Copyright (c) 2024 Zordz Union
+ActionClosurable - allow you to add target to UIControl and etc without using @objc methods.
+It opens hole new world to protocoled dedicated implementations of UI.
+Look Demo for more info and self configurable vc example.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Simple example:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+```swift
+
+    var somePlainButton: UIBarButtonItem {
+        UIBarButtonItem(title: "somePlain", style: .plain) { _ in
+            print("Tapped")
+        }
+    }
+    
+        private var tapGesture: UITapGestureRecognizer {
+        UITapGestureRecognizer { _ in
+            print("Tapped")
+        }
+    }
+
+```
+
