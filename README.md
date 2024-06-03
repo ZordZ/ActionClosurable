@@ -16,7 +16,7 @@ Look Demo for more info and self configurable vc example.
         }
     }
     
-        private var tapGesture: UITapGestureRecognizer {
+    private var tapGesture: UITapGestureRecognizer {
         UITapGestureRecognizer { _ in
             print("Tapped")
         }
