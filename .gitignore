@@ -6,3 +6,5 @@ DerivedData/
 .swiftpm/configuration/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
+ActionClosurableDemo/ActionClosurableDemo.xcodeproj/project.xcworkspace/xcshareddata
+.swiftpm/xcode/package.xcworkspace/xcshareddata
