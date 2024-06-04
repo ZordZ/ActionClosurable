@@ -27,7 +27,7 @@ private extension DemoNavBarConfigurable {
     }
     
     var printButton: UIBarButtonItem {
-        UIBarButtonItem(title: "print", style: .plain) { btn in
+        UIBarButtonItem(title: "print", style: .plain) { _ in
             self.printHello()
         }
     }
