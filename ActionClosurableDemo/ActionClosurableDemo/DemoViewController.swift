@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ACViewController: UIViewController {
+class DemoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,4 +20,4 @@ class ACViewController: UIViewController {
     }
 }
 
-extension ACViewController: ACControllerConfigurable { }
+extension DemoViewController: DemoControllerConfigurable { }

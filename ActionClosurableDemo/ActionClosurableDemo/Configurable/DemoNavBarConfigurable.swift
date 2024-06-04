@@ -8,18 +8,18 @@
 import ActionClosurable
 import UIKit
 
-protocol ACNavBarConfigurable {
+protocol DemoNavBarConfigurable {
     func configureNavBarItems()
 }
 
-extension ACNavBarConfigurable where Self: UIViewController {
+extension DemoNavBarConfigurable where Self: UIViewController {
     func configureNavBarItems() {
         navigationItem.setRightBarButton(somePlainButton, animated: false)
         navigationItem.setLeftBarButton(printButton, animated: false)
     }
 }
 
-private extension ACNavBarConfigurable {
+private extension DemoNavBarConfigurable {
     var somePlainButton: UIBarButtonItem {
         UIBarButtonItem(title: "somePlain", style: .plain) { btn in
             btn.title = "tapped"

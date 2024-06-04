@@ -7,11 +7,11 @@
 
 import UIKit
 
-protocol ACControllerConfigurable: ACLabelConfigrable, ACNavBarConfigurable {
+protocol DemoControllerConfigurable: DemoLabelConfigrable, DemoNavBarConfigurable {
     func configure()
 }
 
-extension ACControllerConfigurable where Self: UIViewController {
+extension DemoControllerConfigurable where Self: UIViewController {
     func configure() {
         view.backgroundColor = .white
         configureLabel()

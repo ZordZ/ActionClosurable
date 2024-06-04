@@ -8,11 +8,11 @@
 import ActionClosurable
 import UIKit
 
-protocol ACLabelConfigrable {
+protocol DemoLabelConfigrable {
     func configureLabel()
 }
 
-extension ACLabelConfigrable where Self: UIViewController {
+extension DemoLabelConfigrable where Self: UIViewController {
     func configureLabel() {
         let label = label
         view.addSubview(label)
